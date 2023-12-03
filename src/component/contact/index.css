@@ -1,0 +1,58 @@
+.title__header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.image {
+  border-radius: 80px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title__text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.title__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.title__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title__info {
+  display: flex;
+}
+
+.title__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.title__info {
+  color: #000;
+
+  font-size: 16px;
+}
+
+.title__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}

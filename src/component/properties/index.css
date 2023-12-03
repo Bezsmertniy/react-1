@@ -1,0 +1,11 @@
+.properties {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.properties__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
